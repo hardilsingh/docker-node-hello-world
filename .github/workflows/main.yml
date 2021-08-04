@@ -37,7 +37,7 @@ jobs:
         
     - uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: hardilsingh87/testingdocker:latest
+        image: testingdocker
         registry: 223876863845.dkr.ecr.ap-south-1.amazonaws.com
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
