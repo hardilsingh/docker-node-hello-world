@@ -7,5 +7,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(5000, () => {
-  console.log("Listening on ort 5000")
+  console.log("Listening")
 });
